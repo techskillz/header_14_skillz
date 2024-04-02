@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
+/* font-family: "DM Sans", sans-serif; */
+
+:root{
+   --dmsans:"DM Sans", sans-serif; 
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: var(--dmsans);
+    
+}
+
+body{
+    background-color: #2F1893;
+}
+
+.navbar-brand{
+    color: white;
+    margin-left: 20rem;
+}
+.navbar-collapse{
+margin-right: 10rem;
+
+}
+.navbar-nav li a{
+    color: white;
+}
+
+.navbar-nav button{
+    border-radius: 999px;
+    color: white;
+    background-color: #E93A7D;
+    height: 50%;
+}
+
+.col-6 {
+    margin-top: 1rem;
+    margin-left: 3rem;
+}
+
+.col-6 h1{
+    width: 270px;
+    height: 150px;
+    margin-top: 3rem;
+    color: white;
+    text-align: center;
+    margin-left: 15rem;
+}
+
+.col-6 p{
+margin-top: 2rem;
+width: 263px;
+height: 130px;
+text-align: center;
+color: white;
+margin-left: 15rem;
+}
+
+.col-6 button{
+
+    border-radius: 999px;
+    background-color: #E93A7D;
+    margin-left: 15rem;
+}
+
+.col-5 form{
+
+    width: 350px;
+    height: 450px;
+    text-align: center;
+    margin-top: 3rem;
+}
+
+.former{
+    background-color: white;
+    margin-left: 2rem;
+}
+
+.former h2{
+    color: #1E0E62;
+    font-size: 30px;
+    line-height: 52px;
+    text-align: center;
+}
+
+.jhh{
+    margin-top: 20px;
+    border-radius: 999px;
+    width: 80%;
+    height: 30px;
+    font-family: var(--dmsans);
+    font-size: 18px;
+    line-height: 26px;
+}
+.hjj{
+    margin-top: 20px;
+    border-radius: 999px;
+    width: 80%;
+    height: 30px;
+    font-family: var(--dmsans);
+    font-size: 18px;
+    line-height: 26px;
+}
+
+.uiu{
+    margin-top: 25px;
+}
+
+.former .btn-primary{
+    width: 80%;
+    background-color: #482BE7;
+    border-radius: 999px;
+}
+
+hr{
+  margin-top: 20px;
+  width: 100%;
+
+}
+
+
+.or{
+    width: 30px;
+    margin: -30px auto 15px;
+    background-color: #fff;
+}
+.former .btn-secondary{
+    width: 80%;
+    background-color: #1DA1F2;
+    border-radius: 999px;
+}
+
+
+.err{
+    margin-top: 2rem
+    
+    ;
+}
+
+.err a{
+    text-decoration: none;
+    color: #25DAC5;
+}
+
+
